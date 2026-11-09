@@ -1,0 +1,7 @@
+# AML screening pipeline dependencies.
+# Pinned to compatible lower bounds; tested against pandas 3.0 / sklearn 1.8.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+SQLAlchemy>=2.0
+pyodbc>=5.0

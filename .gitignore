@@ -1,0 +1,162 @@
+# ==========================================
+# 1. SECRETS & ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+
+# ==========================================
+# 2. DATA FILES
+# ==========================================
+# CSV and Excel
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+
+# Parquet and columnar formats
+*.parquet
+*.parq
+*.feather
+*.orc
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Other data formats
+*.jsonl
+*.ndjson
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Raw and processed data directories
+data/raw/
+data/processed/
+data/interim/
+
+# Keep directory structure if needed
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+
+# ==========================================
+# 3. PYTHON CACHE & COMPILED FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+
+# ==========================================
+# 4. VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+
+# ==========================================
+# 5. JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+
+# ==========================================
+# 6. LOGS & TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+
+# ==========================================
+# 7. IDE & EDITOR CONFIGURATION
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+
+# ==========================================
+# 8. OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ==========================================
+# 9. BUILD & DISTRIBUTION FILES
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+
+# ==========================================
+# 10. TESTING & COVERAGE
+# ==========================================
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+
+# ==========================================
+# 11. MODEL ARTIFACTS & MACHINE LEARNING
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.h5
+*.keras
+*.safetensors
+models/
+checkpoints/
+
+
+# ==========================================
+# 12. GENERATED REPORTS & OUTPUTS
+# ==========================================
+outputs/
+reports/generated/
+figures/generated/
+
+
+# ==========================================
+# 13. ENVIRONMENT & DEPENDENCY TOOLS
+# ==========================================
+.python-version
+.poetry/
+.pdm-python
+.pdm-build/
